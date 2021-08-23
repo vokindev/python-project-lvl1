@@ -24,3 +24,13 @@ def gcd(a, b):
         a, b = b, a % b
 
     return a
+
+def isPrime(n):
+    if n > 1:
+        for i in range(2, n // 2):
+            if (n % i) == 0:
+                return('no')
+        else:
+            return('yes')
+    else:
+        return('no')
