@@ -2,6 +2,7 @@ import prompt
 from random import randint
 from brain_games.control import greetings, is_correct_answer
 
+
 def brain_even():
 
     answers = {True: 'yes', False: 'no'}
