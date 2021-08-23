@@ -14,7 +14,7 @@ def is_correct_answer(user_answer, expected_answer, name):
         return True
     else:
         print(
-            f'\'{user_answer}\' is wrong answer ;(. Correct answer was \'{expected_answer}\'') # noqa: E501
+            f'\'{user_answer}\' is wrong answer ;(. Correct answer was \'{expected_answer}\'')  # noqa: E501
         print(f'Let\'s try again, {name}!')
         return False
 
