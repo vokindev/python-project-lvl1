@@ -1,6 +1,7 @@
 import random
 from brain_games.control import greetings, is_correct_answer, isPrime
 
+
 def brain_prime():
 
     name = greetings()
