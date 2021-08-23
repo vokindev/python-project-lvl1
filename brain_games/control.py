@@ -28,7 +28,8 @@ def gcd(a, b):
 
 def isPrime(n):
     if n > 1:
-        for i in range(2, n // 2):
+        for i in range(2, n):
+            print(i)
             if (n % i) == 0:
                 return('no')
         else:
